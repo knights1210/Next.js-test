@@ -1,0 +1,18 @@
+.bg {
+  background: black;
+  color: white;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  li {
+    margin-right: 1rem;
+    list-style: none;
+  }
+}
