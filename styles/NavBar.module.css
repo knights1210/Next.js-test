@@ -3,6 +3,11 @@
   color: white;
 }
 
+.title {
+  color: black;
+  text-shadow: 1px 1px 3px white;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -24,5 +29,21 @@
 .flex li {
   margin-right: 1rem;
   list-style: none;
+}
+
+.hover {
+  background: linear-gradient(transparent 90%, #0bd 10%);
+  background-position: left bottom;
+  background-size: 0%;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+.hover:hover {
+  background-size: 100%;
+}
+
+.active {
+  color: #0bd;
+  background: linear-gradient(transparent 90%, #0bd 10%);
 }
 /*# sourceMappingURL=NavBar.module.css.map */

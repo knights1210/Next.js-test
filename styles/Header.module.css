@@ -1,0 +1,25 @@
+.big_bg {
+  position: relative;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title {
+  font-size: 4rem;
+  text-shadow: 0 0 2px white;
+}
+
+.container p {
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px white;
+}
